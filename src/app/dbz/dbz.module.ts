@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MainPageComponent } from './pages/mainpage.component';
 import { ListComponent } from './components/list/list.component';
 import { AddcharacterComponent } from './components/addcharacter/addcharacter.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -13,7 +14,8 @@ import { AddcharacterComponent } from './components/addcharacter/addcharacter.co
     AddcharacterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     MainPageComponent
